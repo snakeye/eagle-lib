@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -200,7 +200,9 @@
 <text x="-21.4" y="-24.1" size="1.27" layer="25">1</text>
 </package>
 <package name="MATRIX_8X8_20MM">
-<description>LED Matrix 8x8 20mm RED 07088BH</description>
+<description>LED Matrix 8x8 20mm RED 07088BH
+
+Rows - anodes</description>
 <wire x1="0" y1="0" x2="1" y2="0" width="0.127" layer="21"/>
 <wire x1="1" y1="0" x2="20" y2="0" width="0.127" layer="21"/>
 <wire x1="20" y1="0" x2="20" y2="20" width="0.127" layer="21"/>
