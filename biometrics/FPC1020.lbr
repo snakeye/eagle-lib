@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>FPC1020 Fingerprint Sensors.
+
+This library contains symbols and footprings for Fingerprint Sensors FPC1020AM and FPC1020AP.
+
+The FPC1020 is a capacitive touch fingerprint sensor with low energy consumption, specifically developed and optimized for mobile devices. The FPC1020 sensor offers smartphone, tablet and PC OEMs unprecedented performance, along with the opportunity to relieve consumers from the burden of using PIN codes and passwords for user verification.
+
+
+Andrey Ovcharov (andrew.ovcharov@gmail.com)
+https://en.ovcharov.me/</description>
+<packages>
+<package name="FPC1020AP">
+<description>FPC1020AP - TOUCH FINGERPRINT SENSOR LGA PACKAGE</description>
+<smd name="A1" x="1.2" y="-1.2" dx="0.8" dy="0.8" layer="1"/>
+<smd name="A2" x="2.7" y="-1.4" dx="0.8" dy="1.2" layer="1"/>
+<smd name="A3" x="4.2" y="-1.4" dx="0.8" dy="1.2" layer="1"/>
+<smd name="A4" x="5.7" y="-1.4" dx="0.8" dy="1.2" layer="1"/>
+<smd name="A5" x="7.2" y="-1.4" dx="0.8" dy="1.2" layer="1"/>
+<smd name="A6" x="8.7" y="-1.4" dx="0.8" dy="1.2" layer="1"/>
+<smd name="A7" x="10.2" y="-1.2" dx="0.8" dy="0.8" layer="1"/>
+<smd name="B7" x="10" y="-3.2" dx="1.2" dy="0.8" layer="1"/>
+<smd name="C7" x="10" y="-4.7" dx="1.2" dy="0.8" layer="1"/>
+<smd name="D7" x="10" y="-6.2" dx="1.2" dy="0.8" layer="1"/>
+<smd name="E7" x="10" y="-7.7" dx="1.2" dy="0.8" layer="1"/>
+<smd name="F7" x="10" y="-9.2" dx="1.2" dy="0.8" layer="1"/>
+<smd name="G7" x="10.25" y="-11.1" dx="0.8" dy="0.8" layer="1"/>
+<smd name="G6" x="8.75" y="-10.9" dx="0.8" dy="1.2" layer="1"/>
+<smd name="G5" x="7.25" y="-10.9" dx="0.8" dy="1.2" layer="1"/>
+<smd name="G4" x="5.75" y="-10.9" dx="0.8" dy="1.2" layer="1"/>
+<smd name="G3" x="4.25" y="-10.9" dx="0.8" dy="1.2" layer="1"/>
+<smd name="G2" x="2.75" y="-10.9" dx="0.8" dy="1.2" layer="1"/>
+<smd name="G1" x="1.25" y="-11.1" dx="0.8" dy="0.8" layer="1"/>
+<smd name="F1" x="1.4" y="-9.2" dx="1.2" dy="0.8" layer="1"/>
+<smd name="E1" x="1.4" y="-7.7" dx="1.2" dy="0.8" layer="1"/>
+<smd name="D1" x="1.4" y="-6.2" dx="1.2" dy="0.8" layer="1"/>
+<smd name="C1" x="1.4" y="-4.7" dx="1.2" dy="0.8" layer="1"/>
+<smd name="B1" x="1.4" y="-3.2" dx="1.2" dy="0.8" layer="1"/>
+<smd name="C3" x="4.2" y="-4.7" dx="0.8" dy="0.8" layer="1"/>
+<smd name="C4" x="5.7" y="-4.7" dx="0.8" dy="0.8" layer="1"/>
+<smd name="C5" x="7.2" y="-4.7" dx="0.8" dy="0.8" layer="1"/>
+<smd name="D3" x="4.2" y="-6.2" dx="0.8" dy="0.8" layer="1"/>
+<smd name="D5" x="7.2" y="-6.2" dx="0.8" dy="0.8" layer="1"/>
+<smd name="D4" x="5.7" y="-6.2" dx="0.8" dy="0.8" layer="1"/>
+<smd name="E3" x="4.2" y="-7.7" dx="0.8" dy="0.8" layer="1"/>
+<smd name="E4" x="5.7" y="-7.7" dx="0.8" dy="0.8" layer="1"/>
+<smd name="E5" x="7.2" y="-7.7" dx="0.8" dy="0.8" layer="1"/>
+<wire x1="0" y1="0" x2="1" y2="0" width="0.125" layer="21"/>
+<wire x1="1" y1="0" x2="11.3" y2="0" width="0.125" layer="21"/>
+<wire x1="11.3" y1="0" x2="11.3" y2="-12.15" width="0.125" layer="21"/>
+<wire x1="11.3" y1="-12.15" x2="0" y2="-12.15" width="0.125" layer="21"/>
+<wire x1="0" y1="-12.15" x2="0" y2="-1" width="0.125" layer="21"/>
+<wire x1="0" y1="-1" x2="0" y2="0" width="0.125" layer="21"/>
+<wire x1="1" y1="0" x2="0" y2="-1" width="0.125" layer="21"/>
+<text x="0" y="0.35" size="1" layer="21">$NAME</text>
+<text x="0.25" y="-13.45" size="1" layer="21">FPC1020AP</text>
+<circle x="-1" y="-0.5" radius="0.3" width="0.127" layer="21"/>
+</package>
+<package name="FPC1020AM">
+<description>FCP1020AM Fingerprint Sensor flexible cable connector
+
+Connector Hirose Part Number BM10NB(0.8)-16DS-0.4V(51)</description>
+<smd name="1" x="2.094" y="-3.929" dx="0.47" dy="0.23" layer="1" rot="R90"/>
+<smd name="2" x="2.094" y="-1.119" dx="0.47" dy="0.23" layer="1" rot="R90"/>
+<smd name="3" x="2.494" y="-3.929" dx="0.47" dy="0.23" layer="1" rot="R90"/>
+<smd name="4" x="2.494" y="-1.119" dx="0.47" dy="0.23" layer="1" rot="R90"/>
+<smd name="5" x="2.894" y="-3.929" dx="0.47" dy="0.23" layer="1" rot="R90"/>
+<smd name="6" x="2.894" y="-1.119" dx="0.47" dy="0.23" layer="1" rot="R90"/>
+<smd name="7" x="3.294" y="-3.929" dx="0.47" dy="0.23" layer="1" rot="R90"/>
+<smd name="8" x="3.294" y="-1.119" dx="0.47" dy="0.23" layer="1" rot="R90"/>
+<smd name="9" x="3.694" y="-3.929" dx="0.47" dy="0.23" layer="1" rot="R90"/>
+<smd name="10" x="3.694" y="-1.119" dx="0.47" dy="0.23" layer="1" rot="R90"/>
+<smd name="11" x="4.094" y="-3.929" dx="0.47" dy="0.23" layer="1" rot="R90"/>
+<smd name="12" x="4.094" y="-1.119" dx="0.47" dy="0.23" layer="1" rot="R90"/>
+<smd name="13" x="4.494" y="-3.929" dx="0.47" dy="0.23" layer="1" rot="R90"/>
+<smd name="14" x="4.494" y="-1.119" dx="0.47" dy="0.23" layer="1" rot="R90"/>
+<smd name="15" x="4.894" y="-3.929" dx="0.47" dy="0.23" layer="1" rot="R90"/>
+<smd name="16" x="4.894" y="-1.119" dx="0.47" dy="0.23" layer="1" rot="R90"/>
+<smd name="17" x="1.344" y="-1.079" dx="0.92" dy="0.55" layer="1"/>
+<smd name="18" x="1.344" y="-3.969" dx="0.92" dy="0.55" layer="1"/>
+<smd name="19" x="5.644" y="-3.969" dx="0.92" dy="0.55" layer="1"/>
+<smd name="20" x="5.644" y="-1.079" dx="0.92" dy="0.55" layer="1"/>
+<text x="3.481" y="-6.022" size="1.27" layer="25" align="center">&gt;NAME</text>
+<wire x1="0.694" y1="-1.034" x2="6.294" y2="-1.034" width="0.2" layer="51"/>
+<wire x1="6.294" y1="-1.034" x2="6.294" y2="-4.014" width="0.2" layer="51"/>
+<wire x1="6.294" y1="-4.014" x2="0.694" y2="-4.014" width="0.2" layer="51"/>
+<wire x1="0.694" y1="-4.014" x2="0.694" y2="-1.034" width="0.2" layer="51"/>
+<wire x1="0.694" y1="-4.014" x2="0.694" y2="-1.034" width="0.2" layer="21"/>
+<wire x1="6.294" y1="-1.034" x2="6.294" y2="-4.014" width="0.2" layer="21"/>
+<wire x1="0" y1="-5" x2="7" y2="-5" width="0.127" layer="21"/>
+<wire x1="0" y1="-5" x2="0" y2="-7" width="0.127" layer="21"/>
+<wire x1="7" y1="-5" x2="7" y2="-7" width="0.127" layer="21"/>
+<wire x1="0" y1="-5" x2="0" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.5" x2="0.5" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.5" y1="0" x2="6.5" y2="0" width="0.127" layer="21"/>
+<wire x1="6.5" y1="0" x2="7" y2="-0.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="7" y1="-0.5" x2="7" y2="-5" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FPC1020AM">
+<description>FPC1020AM Fingerprint Sensor</description>
+<pin name="MISO" x="-5.08" y="-2.54" visible="pin" length="middle"/>
+<pin name="MOSI" x="-5.08" y="-5.08" visible="pin" length="middle"/>
+<pin name="SPICLK" x="-5.08" y="-7.62" visible="pin" length="middle" direction="in"/>
+<pin name="CS_N" x="-5.08" y="-10.16" visible="pin" length="middle" direction="in"/>
+<pin name="RST_N" x="-5.08" y="-20.32" visible="pin" length="middle" direction="in"/>
+<pin name="TEST@1" x="43.18" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="TXOUT" x="43.18" y="-20.32" visible="pin" length="middle" direction="out" rot="R180"/>
+<pin name="VDDTX" x="-5.08" y="-25.4" visible="pin" length="middle" direction="pwr"/>
+<pin name="VDDIO" x="-5.08" y="-27.94" visible="pin" length="middle" direction="pwr"/>
+<pin name="VDD" x="-5.08" y="-30.48" visible="pin" length="middle" direction="pwr"/>
+<pin name="IRQ" x="-5.08" y="-15.24" visible="pin" length="middle" direction="out"/>
+<pin name="GND" x="-5.08" y="-38.1" visible="pin" length="middle" direction="pwr"/>
+<wire x1="0" y1="0" x2="0" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="0" y1="-40.64" x2="38.1" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-40.64" x2="38.1" y2="0" width="0.254" layer="94"/>
+<wire x1="38.1" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="-0.254" y="0.508" size="1.27" layer="94">$NAME</text>
+<pin name="BEZEL" x="43.18" y="-7.62" length="middle" rot="R180"/>
+</symbol>
+<symbol name="FPC1020AP">
+<description>FPC1020AP Fingerprint Sensor</description>
+<pin name="MISO" x="-5.08" y="-2.54" visible="pin" length="middle"/>
+<pin name="MOSI" x="-5.08" y="-5.08" visible="pin" length="middle"/>
+<pin name="SPICLK" x="-5.08" y="-7.62" visible="pin" length="middle" direction="in"/>
+<pin name="CS_N" x="-5.08" y="-10.16" visible="pin" length="middle" direction="in"/>
+<pin name="RST_N" x="-5.08" y="-20.32" visible="pin" length="middle" direction="in"/>
+<pin name="NC@1" x="43.18" y="-25.4" visible="pin" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@2" x="43.18" y="-27.94" visible="pin" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST@1" x="43.18" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="TEST@2" x="43.18" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="ANATEST1" x="43.18" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="ANATEST2" x="43.18" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="TESTCLK" x="43.18" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="TXOUT" x="43.18" y="-20.32" visible="pin" length="middle" direction="out" rot="R180"/>
+<pin name="VDDTX" x="-5.08" y="-25.4" visible="pin" length="middle" direction="pwr"/>
+<pin name="VDDIO" x="-5.08" y="-27.94" visible="pin" length="middle" direction="pwr"/>
+<pin name="VDDD" x="-5.08" y="-30.48" visible="pin" length="middle" direction="pwr"/>
+<pin name="VDDA" x="-5.08" y="-33.02" visible="pin" length="middle" direction="pwr"/>
+<pin name="IRQ" x="-5.08" y="-15.24" visible="pin" length="middle" direction="out"/>
+<pin name="GND" x="-5.08" y="-38.1" visible="pin" length="middle" direction="pwr"/>
+<wire x1="0" y1="0" x2="0" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="0" y1="-40.64" x2="38.1" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-40.64" x2="38.1" y2="0" width="0.254" layer="94"/>
+<wire x1="38.1" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="-0.254" y="0.508" size="1.27" layer="94">$NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FPC1020AM">
+<description>FPC1020AM Fingerprint Sensor flexible cable
+
+Connector Hirose Part Number BM10NB(0.8)-16DS-0.4V(51)</description>
+<gates>
+<gate name="G$1" symbol="FPC1020AM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FPC1020AM">
+<connects>
+<connect gate="G$1" pin="BEZEL" pad="2"/>
+<connect gate="G$1" pin="CS_N" pad="12"/>
+<connect gate="G$1" pin="GND" pad="3 4 13 14 17 18 19 20"/>
+<connect gate="G$1" pin="IRQ" pad="8"/>
+<connect gate="G$1" pin="MISO" pad="11"/>
+<connect gate="G$1" pin="MOSI" pad="15"/>
+<connect gate="G$1" pin="RST_N" pad="10"/>
+<connect gate="G$1" pin="SPICLK" pad="16"/>
+<connect gate="G$1" pin="TEST@1" pad="9"/>
+<connect gate="G$1" pin="TXOUT" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+<connect gate="G$1" pin="VDDIO" pad="7"/>
+<connect gate="G$1" pin="VDDTX" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FPC1020AP">
+<description>FPC1020AP Fingerprint Sensor LGA Package</description>
+<gates>
+<gate name="G$1" symbol="FPC1020AP" x="10.16" y="-25.4"/>
+</gates>
+<devices>
+<device name="" package="FPC1020AP">
+<connects>
+<connect gate="G$1" pin="ANATEST1" pad="A5"/>
+<connect gate="G$1" pin="ANATEST2" pad="A6"/>
+<connect gate="G$1" pin="CS_N" pad="B1"/>
+<connect gate="G$1" pin="GND" pad="A1 A4 A7 C3 C4 C5 D1 D3 D4 D5 E3 E4 E5 G1 G7"/>
+<connect gate="G$1" pin="IRQ" pad="D7"/>
+<connect gate="G$1" pin="MISO" pad="E1"/>
+<connect gate="G$1" pin="MOSI" pad="C1"/>
+<connect gate="G$1" pin="NC@1" pad="G3"/>
+<connect gate="G$1" pin="NC@2" pad="C7"/>
+<connect gate="G$1" pin="RST_N" pad="G2"/>
+<connect gate="G$1" pin="SPICLK" pad="F1"/>
+<connect gate="G$1" pin="TEST@1" pad="B7"/>
+<connect gate="G$1" pin="TEST@2" pad="A2"/>
+<connect gate="G$1" pin="TESTCLK" pad="A3"/>
+<connect gate="G$1" pin="TXOUT" pad="E7"/>
+<connect gate="G$1" pin="VDDA" pad="G6"/>
+<connect gate="G$1" pin="VDDD" pad="G5"/>
+<connect gate="G$1" pin="VDDIO" pad="G4"/>
+<connect gate="G$1" pin="VDDTX" pad="F7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
