@@ -58,15 +58,20 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>FPC1020 Fingerprint Sensors.
+<description>&lt;b&gt;FPC1020 Fingerprint Sensors&lt;/b&gt;
 
+&lt;p&gt;
 This library contains symbols and footprings for Fingerprint Sensors FPC1020AM and FPC1020AP.
+&lt;/p&gt;
 
+&lt;p&gt;
 The FPC1020 is a capacitive touch fingerprint sensor with low energy consumption, specifically developed and optimized for mobile devices. The FPC1020 sensor offers smartphone, tablet and PC OEMs unprecedented performance, along with the opportunity to relieve consumers from the burden of using PIN codes and passwords for user verification.
+&lt;/p&gt;
 
-
-Andrey Ovcharov (andrew.ovcharov@gmail.com)
-https://en.ovcharov.me/</description>
+&lt;p&gt;
+Andrey Ovcharov (&lt;a href="mailto:andrew.ovcharov@gmail.com"&gt;andrew.ovcharov@gmail.com&lt;/a&gt;)&lt;br/&gt;
+&lt;a href="https://en.ovcharov.me/"&gt;en.ovcharov.me&lt;/a&gt;
+&lt;/p&gt;</description>
 <packages>
 <package name="FPC1020AP">
 <description>FPC1020AP - TOUCH FINGERPRINT SENSOR LGA PACKAGE</description>
@@ -114,9 +119,11 @@ https://en.ovcharov.me/</description>
 <text x="0" y="0.254" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="FPC1020AM">
-<description>FCP1020AM Fingerprint Sensor flexible cable connector
+<description>&lt;b&gt;FCP1020AM Fingerprint Sensor flexible cable connector&lt;/b&gt;
 
-Connector Hirose Part Number BM10NB(0.8)-16DS-0.4V(51)</description>
+&lt;p&gt;
+Connector Hirose Part Number BM10NB(0.8)-16DS-0.4V(51)
+&lt;/p&gt;</description>
 <smd name="1" x="2.094" y="-3.929" dx="0.47" dy="0.23" layer="1" rot="R90"/>
 <smd name="2" x="2.094" y="-1.119" dx="0.47" dy="0.23" layer="1" rot="R90"/>
 <smd name="3" x="2.494" y="-3.929" dx="0.47" dy="0.23" layer="1" rot="R90"/>
@@ -206,9 +213,12 @@ Connector Hirose Part Number BM10NB(0.8)-16DS-0.4V(51)</description>
 </symbols>
 <devicesets>
 <deviceset name="FPC1020AM">
-<description>FPC1020AM Fingerprint Sensor flexible cable
+<description>&lt;b&gt;FPC1020AM Fingerprint Sensor flexible cable&lt;/b&gt;
 
-Connector Hirose Part Number BM10NB(0.8)-16DS-0.4V(51)</description>
+&lt;p&gt;
+Connector: Hirose&lt;br/&gt;
+Part Number: BM10NB(0.8)-16DS-0.4V(51)
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="FPC1020AM" x="0" y="0"/>
 </gates>
@@ -236,7 +246,7 @@ Connector Hirose Part Number BM10NB(0.8)-16DS-0.4V(51)</description>
 </devices>
 </deviceset>
 <deviceset name="FPC1020AP">
-<description>FPC1020AP Fingerprint Sensor LGA Package</description>
+<description>&lt;b&gt;FPC1020AP Fingerprint Sensor LGA Package&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="FPC1020AP" x="10.16" y="-25.4"/>
 </gates>
