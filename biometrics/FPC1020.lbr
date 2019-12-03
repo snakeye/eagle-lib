@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -164,46 +164,46 @@ Connector Hirose Part Number BM10NB(0.8)-16DS-0.4V(51)
 <symbols>
 <symbol name="FPC1020AM">
 <description>FPC1020AM Fingerprint Sensor</description>
-<pin name="MISO" x="-5.08" y="-2.54" visible="pin" length="middle"/>
-<pin name="MOSI" x="-5.08" y="-5.08" visible="pin" length="middle"/>
-<pin name="SPICLK" x="-5.08" y="-7.62" visible="pin" length="middle" direction="in"/>
-<pin name="CS_N" x="-5.08" y="-10.16" visible="pin" length="middle" direction="in"/>
-<pin name="RST_N" x="-5.08" y="-20.32" visible="pin" length="middle" direction="in"/>
-<pin name="TEST@1" x="43.18" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="TXOUT" x="43.18" y="-20.32" visible="pin" length="middle" direction="out" rot="R180"/>
-<pin name="VDDTX" x="-5.08" y="-25.4" visible="pin" length="middle" direction="pwr"/>
-<pin name="VDDIO" x="-5.08" y="-27.94" visible="pin" length="middle" direction="pwr"/>
-<pin name="VDD" x="-5.08" y="-30.48" visible="pin" length="middle" direction="pwr"/>
-<pin name="IRQ" x="-5.08" y="-15.24" visible="pin" length="middle" direction="out"/>
-<pin name="GND" x="-5.08" y="-38.1" visible="pin" length="middle" direction="pwr"/>
+<pin name="MISO" x="-5.08" y="-2.54" length="middle"/>
+<pin name="MOSI" x="-5.08" y="-5.08" length="middle"/>
+<pin name="SPICLK" x="-5.08" y="-7.62" length="middle" direction="in"/>
+<pin name="CS_N" x="-5.08" y="-10.16"  length="middle" direction="in"/>
+<pin name="RST_N" x="-5.08" y="-20.32"  length="middle" direction="in"/>
+<pin name="TEST@1" x="43.18" y="-2.54"  length="middle" rot="R180"/>
+<pin name="TXOUT" x="43.18" y="-20.32"  length="middle" direction="out" rot="R180"/>
+<pin name="VDDTX" x="-5.08" y="-25.4"  length="middle" direction="pwr"/>
+<pin name="VDDIO" x="-5.08" y="-27.94"  length="middle" direction="pwr"/>
+<pin name="VDD" x="-5.08" y="-30.48"  length="middle" direction="pwr"/>
+<pin name="IRQ" x="-5.08" y="-15.24" length="middle" direction="out"/>
+<pin name="GND" x="-5.08" y="-38.1"  length="middle" direction="pwr"/>
 <wire x1="0" y1="0" x2="0" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="0" y1="-40.64" x2="38.1" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="38.1" y1="-40.64" x2="38.1" y2="0" width="0.254" layer="94"/>
 <wire x1="38.1" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="BEZEL" x="43.18" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="BEZEL" x="43.18" y="-7.62"  length="middle" rot="R180"/>
 <text x="0.254" y="0.762" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="FPC1020AP">
 <description>FPC1020AP Fingerprint Sensor</description>
-<pin name="MISO" x="-5.08" y="-2.54" visible="pin" length="middle"/>
-<pin name="MOSI" x="-5.08" y="-5.08" visible="pin" length="middle"/>
-<pin name="SPICLK" x="-5.08" y="-7.62" visible="pin" length="middle" direction="in"/>
-<pin name="CS_N" x="-5.08" y="-10.16" visible="pin" length="middle" direction="in"/>
-<pin name="RST_N" x="-5.08" y="-20.32" visible="pin" length="middle" direction="in"/>
-<pin name="NC@1" x="43.18" y="-25.4" visible="pin" length="middle" direction="nc" rot="R180"/>
-<pin name="NC@2" x="43.18" y="-27.94" visible="pin" length="middle" direction="nc" rot="R180"/>
-<pin name="TEST@1" x="43.18" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="TEST@2" x="43.18" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="ANATEST1" x="43.18" y="-10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="ANATEST2" x="43.18" y="-12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="TESTCLK" x="43.18" y="-15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="TXOUT" x="43.18" y="-20.32" visible="pin" length="middle" direction="out" rot="R180"/>
-<pin name="VDDTX" x="-5.08" y="-25.4" visible="pin" length="middle" direction="pwr"/>
-<pin name="VDDIO" x="-5.08" y="-27.94" visible="pin" length="middle" direction="pwr"/>
-<pin name="VDDD" x="-5.08" y="-30.48" visible="pin" length="middle" direction="pwr"/>
-<pin name="VDDA" x="-5.08" y="-33.02" visible="pin" length="middle" direction="pwr"/>
-<pin name="IRQ" x="-5.08" y="-15.24" visible="pin" length="middle" direction="out"/>
-<pin name="GND" x="-5.08" y="-38.1" visible="pin" length="middle" direction="pwr"/>
+<pin name="MISO" x="-5.08" y="-2.54"  length="middle"/>
+<pin name="MOSI" x="-5.08" y="-5.08"  length="middle"/>
+<pin name="SPICLK" x="-5.08" y="-7.62"  length="middle" direction="in"/>
+<pin name="CS_N" x="-5.08" y="-10.16"  length="middle" direction="in"/>
+<pin name="RST_N" x="-5.08" y="-20.32"  length="middle" direction="in"/>
+<pin name="NC@1" x="43.18" y="-25.4"  length="middle" direction="nc" rot="R180"/>
+<pin name="NC@2" x="43.18" y="-27.94"  length="middle" direction="nc" rot="R180"/>
+<pin name="TEST@1" x="43.18" y="-2.54"  length="middle" rot="R180"/>
+<pin name="TEST@2" x="43.18" y="-5.08"  length="middle" rot="R180"/>
+<pin name="ANATEST1" x="43.18" y="-10.16"  length="middle" rot="R180"/>
+<pin name="ANATEST2" x="43.18" y="-12.7"  length="middle" rot="R180"/>
+<pin name="TESTCLK" x="43.18" y="-15.24"  length="middle" rot="R180"/>
+<pin name="TXOUT" x="43.18" y="-20.32"  length="middle" direction="out" rot="R180"/>
+<pin name="VDDTX" x="-5.08" y="-25.4"  length="middle" direction="pwr"/>
+<pin name="VDDIO" x="-5.08" y="-27.94"  length="middle" direction="pwr"/>
+<pin name="VDDD" x="-5.08" y="-30.48"  length="middle" direction="pwr"/>
+<pin name="VDDA" x="-5.08" y="-33.02"  length="middle" direction="pwr"/>
+<pin name="IRQ" x="-5.08" y="-15.24"  length="middle" direction="out"/>
+<pin name="GND" x="-5.08" y="-38.1"  length="middle" direction="pwr"/>
 <wire x1="0" y1="0" x2="0" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="0" y1="-40.64" x2="38.1" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="38.1" y1="-40.64" x2="38.1" y2="0" width="0.254" layer="94"/>
