@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -307,6 +307,18 @@
 <wire x1="-0.635" y1="5.715" x2="50.165" y2="5.715" width="0.127" layer="21"/>
 <wire x1="50.165" y1="5.715" x2="50.165" y2="3.175" width="0.127" layer="21"/>
 </package>
+<package name="PINHD-1X3">
+<pad name="P$1" x="0" y="0" drill="0.6" shape="long" first="yes"/>
+<pad name="P$2" x="0" y="-1.27" drill="0.6" shape="long"/>
+<pad name="P$3" x="0" y="-2.54" drill="0.6" shape="long"/>
+</package>
+<package name="PINHD-1X5">
+<pad name="P$1" x="0" y="2.54" drill="0.6" shape="long"/>
+<pad name="P$2" x="0" y="1.27" drill="0.6" shape="long"/>
+<pad name="P$3" x="0" y="0" drill="0.6" shape="long"/>
+<pad name="P$4" x="0" y="-1.27" drill="0.6" shape="long"/>
+<pad name="P$5" x="0" y="-2.54" drill="0.6" shape="long"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PINHD-2X40">
@@ -432,6 +444,28 @@
 <wire x1="15.24" y1="2.54" x2="15.24" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-40.64" x2="0" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="0" y1="-40.64" x2="0" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="PINHD-1X3">
+<pin name="P$1" x="2.54" y="0" length="short" rot="R180"/>
+<pin name="P$2" x="2.54" y="-2.54" length="short" rot="R180"/>
+<pin name="P$3" x="2.54" y="-5.08" length="short" rot="R180"/>
+<wire x1="-7.62" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<text x="-7.62" y="3.048" size="1.778" layer="94">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="94">&gt;VALUE</text>
+</symbol>
+<symbol name="PINHD-1X5">
+<pin name="P$1" x="2.54" y="0" length="short" rot="R180"/>
+<pin name="P$2" x="2.54" y="-2.54" length="short" rot="R180"/>
+<pin name="P$3" x="2.54" y="-5.08" length="short" rot="R180"/>
+<pin name="P$4" x="2.54" y="-7.62" length="short" rot="R180"/>
+<pin name="P$5" x="2.54" y="-10.16" length="short" rot="R180"/>
+<wire x1="-7.62" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -694,6 +728,42 @@
 <connect gate="G$1" pin="P$7" pad="P$7"/>
 <connect gate="G$1" pin="P$8" pad="P$8"/>
 <connect gate="G$1" pin="P$9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHD-1X3">
+<gates>
+<gate name="G$1" symbol="PINHD-1X3" x="7.62" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="PINHD-1X3">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHD1X5">
+<gates>
+<gate name="G$1" symbol="PINHD-1X5" x="5.08" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="PINHD-1X5">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
 </connects>
 <technologies>
 <technology name=""/>
