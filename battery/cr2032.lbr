@@ -61,15 +61,15 @@
 <packages>
 <package name="CR2032">
 <smd name="P$1" x="0" y="0" dx="17.8" dy="17.8" layer="1" roundness="100"/>
-<smd name="P$2" x="-12.7" y="0" dx="2.5" dy="5.1" layer="1"/>
-<smd name="P$3" x="12.7" y="0" dx="2.5" dy="5.1" layer="1"/>
+<smd name="P$2" x="-11.45" y="0" dx="2.5" dy="5.1" layer="1"/>
+<smd name="P$3" x="11.45" y="0" dx="2.5" dy="5.1" layer="1"/>
 <circle x="0" y="0" radius="10" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
 <symbol name="CR2032">
-<pin name="P$1" x="0" y="6.35" visible="off" length="middle" direction="pwr" rot="R270"/>
-<pin name="P$2" x="0" y="-5.08" visible="off" length="middle" direction="pwr" rot="R90"/>
+<pin name="BAT+" x="0" y="6.35" visible="off" length="middle" direction="pwr" rot="R270"/>
+<pin name="BAT-" x="0" y="-5.08" visible="off" length="middle" direction="pwr" rot="R90"/>
 <wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
 <text x="0.508" y="1.778" size="1.778" layer="94">+</text>
@@ -83,8 +83,8 @@
 <devices>
 <device name="SMD" package="CR2032">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2 P$3"/>
+<connect gate="G$1" pin="BAT+" pad="P$2 P$3"/>
+<connect gate="G$1" pin="BAT-" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
