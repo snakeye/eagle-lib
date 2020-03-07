@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -75,48 +75,48 @@ Andrey Ovcharov (&lt;a href="mailto:andrew.ovcharov@gmail.com"&gt;andrew.ovcharo
 <packages>
 <package name="FPC1020AP">
 <description>FPC1020AP - TOUCH FINGERPRINT SENSOR LGA PACKAGE</description>
-<smd name="A1" x="1.2" y="-1.2" dx="0.8" dy="0.8" layer="1"/>
-<smd name="A2" x="2.7" y="-1.4" dx="0.8" dy="1.2" layer="1"/>
-<smd name="A3" x="4.2" y="-1.4" dx="0.8" dy="1.2" layer="1"/>
-<smd name="A4" x="5.7" y="-1.4" dx="0.8" dy="1.2" layer="1"/>
-<smd name="A5" x="7.2" y="-1.4" dx="0.8" dy="1.2" layer="1"/>
-<smd name="A6" x="8.7" y="-1.4" dx="0.8" dy="1.2" layer="1"/>
-<smd name="A7" x="10.2" y="-1.2" dx="0.8" dy="0.8" layer="1"/>
-<smd name="B7" x="10" y="-3.2" dx="1.2" dy="0.8" layer="1"/>
-<smd name="C7" x="10" y="-4.7" dx="1.2" dy="0.8" layer="1"/>
-<smd name="D7" x="10" y="-6.2" dx="1.2" dy="0.8" layer="1"/>
-<smd name="E7" x="10" y="-7.7" dx="1.2" dy="0.8" layer="1"/>
-<smd name="F7" x="10" y="-9.2" dx="1.2" dy="0.8" layer="1"/>
-<smd name="G7" x="10.25" y="-11.1" dx="0.8" dy="0.8" layer="1"/>
-<smd name="G6" x="8.75" y="-10.9" dx="0.8" dy="1.2" layer="1"/>
-<smd name="G5" x="7.25" y="-10.9" dx="0.8" dy="1.2" layer="1"/>
-<smd name="G4" x="5.75" y="-10.9" dx="0.8" dy="1.2" layer="1"/>
-<smd name="G3" x="4.25" y="-10.9" dx="0.8" dy="1.2" layer="1"/>
-<smd name="G2" x="2.75" y="-10.9" dx="0.8" dy="1.2" layer="1"/>
-<smd name="G1" x="1.25" y="-11.1" dx="0.8" dy="0.8" layer="1"/>
-<smd name="F1" x="1.4" y="-9.2" dx="1.2" dy="0.8" layer="1"/>
-<smd name="E1" x="1.4" y="-7.7" dx="1.2" dy="0.8" layer="1"/>
-<smd name="D1" x="1.4" y="-6.2" dx="1.2" dy="0.8" layer="1"/>
-<smd name="C1" x="1.4" y="-4.7" dx="1.2" dy="0.8" layer="1"/>
-<smd name="B1" x="1.4" y="-3.2" dx="1.2" dy="0.8" layer="1"/>
-<smd name="C3" x="4.2" y="-4.7" dx="0.8" dy="0.8" layer="1"/>
-<smd name="C4" x="5.7" y="-4.7" dx="0.8" dy="0.8" layer="1"/>
-<smd name="C5" x="7.2" y="-4.7" dx="0.8" dy="0.8" layer="1"/>
-<smd name="D3" x="4.2" y="-6.2" dx="0.8" dy="0.8" layer="1"/>
-<smd name="D5" x="7.2" y="-6.2" dx="0.8" dy="0.8" layer="1"/>
-<smd name="D4" x="5.7" y="-6.2" dx="0.8" dy="0.8" layer="1"/>
-<smd name="E3" x="4.2" y="-7.7" dx="0.8" dy="0.8" layer="1"/>
-<smd name="E4" x="5.7" y="-7.7" dx="0.8" dy="0.8" layer="1"/>
-<smd name="E5" x="7.2" y="-7.7" dx="0.8" dy="0.8" layer="1"/>
-<wire x1="0" y1="0" x2="1" y2="0" width="0.125" layer="21"/>
-<wire x1="1" y1="0" x2="11.3" y2="0" width="0.125" layer="21"/>
-<wire x1="11.3" y1="0" x2="11.3" y2="-12.15" width="0.125" layer="21"/>
-<wire x1="11.3" y1="-12.15" x2="0" y2="-12.15" width="0.125" layer="21"/>
-<wire x1="0" y1="-12.15" x2="0" y2="-1" width="0.125" layer="21"/>
-<wire x1="0" y1="-1" x2="0" y2="0" width="0.125" layer="21"/>
-<wire x1="1" y1="0" x2="0" y2="-1" width="0.125" layer="21"/>
-<circle x="-1" y="-0.5" radius="0.3" width="0.127" layer="21"/>
-<text x="0" y="0.254" size="1.27" layer="25">&gt;NAME</text>
+<smd name="A1" x="-4.476" y="4.978" dx="0.8" dy="0.8" layer="1"/>
+<smd name="A2" x="-2.976" y="4.778" dx="0.8" dy="1.2" layer="1"/>
+<smd name="A3" x="-1.476" y="4.778" dx="0.8" dy="1.2" layer="1"/>
+<smd name="A4" x="0.024" y="4.778" dx="0.8" dy="1.2" layer="1"/>
+<smd name="A5" x="1.524" y="4.778" dx="0.8" dy="1.2" layer="1"/>
+<smd name="A6" x="3.024" y="4.778" dx="0.8" dy="1.2" layer="1"/>
+<smd name="A7" x="4.524" y="4.978" dx="0.8" dy="0.8" layer="1"/>
+<smd name="B7" x="4.324" y="2.978" dx="1.2" dy="0.8" layer="1"/>
+<smd name="C7" x="4.324" y="1.478" dx="1.2" dy="0.8" layer="1"/>
+<smd name="D7" x="4.324" y="-0.022" dx="1.2" dy="0.8" layer="1"/>
+<smd name="E7" x="4.324" y="-1.522" dx="1.2" dy="0.8" layer="1"/>
+<smd name="F7" x="4.324" y="-3.022" dx="1.2" dy="0.8" layer="1"/>
+<smd name="G7" x="4.574" y="-4.922" dx="0.8" dy="0.8" layer="1"/>
+<smd name="G6" x="3.074" y="-4.722" dx="0.8" dy="1.2" layer="1"/>
+<smd name="G5" x="1.574" y="-4.722" dx="0.8" dy="1.2" layer="1"/>
+<smd name="G4" x="0.074" y="-4.722" dx="0.8" dy="1.2" layer="1"/>
+<smd name="G3" x="-1.426" y="-4.722" dx="0.8" dy="1.2" layer="1"/>
+<smd name="G2" x="-2.926" y="-4.722" dx="0.8" dy="1.2" layer="1"/>
+<smd name="G1" x="-4.426" y="-4.922" dx="0.8" dy="0.8" layer="1"/>
+<smd name="F1" x="-4.276" y="-3.022" dx="1.2" dy="0.8" layer="1"/>
+<smd name="E1" x="-4.276" y="-1.522" dx="1.2" dy="0.8" layer="1"/>
+<smd name="D1" x="-4.276" y="-0.022" dx="1.2" dy="0.8" layer="1"/>
+<smd name="C1" x="-4.276" y="1.478" dx="1.2" dy="0.8" layer="1"/>
+<smd name="B1" x="-4.276" y="2.978" dx="1.2" dy="0.8" layer="1"/>
+<smd name="C3" x="-1.476" y="1.478" dx="0.8" dy="0.8" layer="1"/>
+<smd name="C4" x="0.024" y="1.478" dx="0.8" dy="0.8" layer="1"/>
+<smd name="C5" x="1.524" y="1.478" dx="0.8" dy="0.8" layer="1"/>
+<smd name="D3" x="-1.476" y="-0.022" dx="0.8" dy="0.8" layer="1"/>
+<smd name="D5" x="1.524" y="-0.022" dx="0.8" dy="0.8" layer="1"/>
+<smd name="D4" x="0.024" y="-0.022" dx="0.8" dy="0.8" layer="1"/>
+<smd name="E3" x="-1.476" y="-1.522" dx="0.8" dy="0.8" layer="1"/>
+<smd name="E4" x="0.024" y="-1.522" dx="0.8" dy="0.8" layer="1"/>
+<smd name="E5" x="1.524" y="-1.522" dx="0.8" dy="0.8" layer="1"/>
+<wire x1="-5.676" y1="6.178" x2="-4.676" y2="6.178" width="0.125" layer="21"/>
+<wire x1="-4.676" y1="6.178" x2="5.624" y2="6.178" width="0.125" layer="21"/>
+<wire x1="5.624" y1="6.178" x2="5.624" y2="-5.972" width="0.125" layer="21"/>
+<wire x1="5.624" y1="-5.972" x2="-5.676" y2="-5.972" width="0.125" layer="21"/>
+<wire x1="-5.676" y1="-5.972" x2="-5.676" y2="5.178" width="0.125" layer="21"/>
+<wire x1="-5.676" y1="5.178" x2="-5.676" y2="6.178" width="0.125" layer="21"/>
+<wire x1="-4.676" y1="6.178" x2="-5.676" y2="5.178" width="0.125" layer="21"/>
+<circle x="-6.676" y="5.678" radius="0.3" width="0.127" layer="21"/>
+<text x="-5.676" y="6.432" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="FPC1020AM">
 <description>&lt;b&gt;FCP1020AM Fingerprint Sensor flexible cable connector&lt;/b&gt;
@@ -167,43 +167,43 @@ Connector Hirose Part Number BM10NB(0.8)-16DS-0.4V(51)
 <pin name="MISO" x="-5.08" y="-2.54" length="middle"/>
 <pin name="MOSI" x="-5.08" y="-5.08" length="middle"/>
 <pin name="SPICLK" x="-5.08" y="-7.62" length="middle" direction="in"/>
-<pin name="CS_N" x="-5.08" y="-10.16"  length="middle" direction="in"/>
-<pin name="RST_N" x="-5.08" y="-20.32"  length="middle" direction="in"/>
-<pin name="TEST@1" x="43.18" y="-2.54"  length="middle" rot="R180"/>
-<pin name="TXOUT" x="43.18" y="-20.32"  length="middle" direction="out" rot="R180"/>
-<pin name="VDDTX" x="-5.08" y="-25.4"  length="middle" direction="pwr"/>
-<pin name="VDDIO" x="-5.08" y="-27.94"  length="middle" direction="pwr"/>
-<pin name="VDD" x="-5.08" y="-30.48"  length="middle" direction="pwr"/>
+<pin name="CS_N" x="-5.08" y="-10.16" length="middle" direction="in"/>
+<pin name="RST_N" x="-5.08" y="-20.32" length="middle" direction="in"/>
+<pin name="TEST@1" x="43.18" y="-2.54" length="middle" rot="R180"/>
+<pin name="TXOUT" x="43.18" y="-20.32" length="middle" direction="out" rot="R180"/>
+<pin name="VDDTX" x="-5.08" y="-25.4" length="middle" direction="pwr"/>
+<pin name="VDDIO" x="-5.08" y="-27.94" length="middle" direction="pwr"/>
+<pin name="VDD" x="-5.08" y="-30.48" length="middle" direction="pwr"/>
 <pin name="IRQ" x="-5.08" y="-15.24" length="middle" direction="out"/>
-<pin name="GND" x="-5.08" y="-38.1"  length="middle" direction="pwr"/>
+<pin name="GND" x="-5.08" y="-38.1" length="middle" direction="pwr"/>
 <wire x1="0" y1="0" x2="0" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="0" y1="-40.64" x2="38.1" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="38.1" y1="-40.64" x2="38.1" y2="0" width="0.254" layer="94"/>
 <wire x1="38.1" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="BEZEL" x="43.18" y="-7.62"  length="middle" rot="R180"/>
+<pin name="BEZEL" x="43.18" y="-7.62" length="middle" rot="R180"/>
 <text x="0.254" y="0.762" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="FPC1020AP">
 <description>FPC1020AP Fingerprint Sensor</description>
-<pin name="MISO" x="-5.08" y="-2.54"  length="middle"/>
-<pin name="MOSI" x="-5.08" y="-5.08"  length="middle"/>
-<pin name="SPICLK" x="-5.08" y="-7.62"  length="middle" direction="in"/>
-<pin name="CS_N" x="-5.08" y="-10.16"  length="middle" direction="in"/>
-<pin name="RST_N" x="-5.08" y="-20.32"  length="middle" direction="in"/>
-<pin name="NC@1" x="43.18" y="-25.4"  length="middle" direction="nc" rot="R180"/>
-<pin name="NC@2" x="43.18" y="-27.94"  length="middle" direction="nc" rot="R180"/>
-<pin name="TEST@1" x="43.18" y="-2.54"  length="middle" rot="R180"/>
-<pin name="TEST@2" x="43.18" y="-5.08"  length="middle" rot="R180"/>
-<pin name="ANATEST1" x="43.18" y="-10.16"  length="middle" rot="R180"/>
-<pin name="ANATEST2" x="43.18" y="-12.7"  length="middle" rot="R180"/>
-<pin name="TESTCLK" x="43.18" y="-15.24"  length="middle" rot="R180"/>
-<pin name="TXOUT" x="43.18" y="-20.32"  length="middle" direction="out" rot="R180"/>
-<pin name="VDDTX" x="-5.08" y="-25.4"  length="middle" direction="pwr"/>
-<pin name="VDDIO" x="-5.08" y="-27.94"  length="middle" direction="pwr"/>
-<pin name="VDDD" x="-5.08" y="-30.48"  length="middle" direction="pwr"/>
-<pin name="VDDA" x="-5.08" y="-33.02"  length="middle" direction="pwr"/>
-<pin name="IRQ" x="-5.08" y="-15.24"  length="middle" direction="out"/>
-<pin name="GND" x="-5.08" y="-38.1"  length="middle" direction="pwr"/>
+<pin name="MISO" x="-5.08" y="-2.54" length="middle"/>
+<pin name="MOSI" x="-5.08" y="-5.08" length="middle"/>
+<pin name="SPICLK" x="-5.08" y="-7.62" length="middle" direction="in"/>
+<pin name="CS_N" x="-5.08" y="-10.16" length="middle" direction="in"/>
+<pin name="RST_N" x="-5.08" y="-20.32" length="middle" direction="in"/>
+<pin name="NC@1" x="43.18" y="-25.4" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@2" x="43.18" y="-27.94" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST@1" x="43.18" y="-2.54" length="middle" rot="R180"/>
+<pin name="TEST@2" x="43.18" y="-5.08" length="middle" rot="R180"/>
+<pin name="ANATEST1" x="43.18" y="-10.16" length="middle" rot="R180"/>
+<pin name="ANATEST2" x="43.18" y="-12.7" length="middle" rot="R180"/>
+<pin name="TESTCLK" x="43.18" y="-15.24" length="middle" rot="R180"/>
+<pin name="TXOUT" x="43.18" y="-20.32" length="middle" direction="out" rot="R180"/>
+<pin name="VDDTX" x="-5.08" y="-25.4" length="middle" direction="pwr"/>
+<pin name="VDDIO" x="-5.08" y="-27.94" length="middle" direction="pwr"/>
+<pin name="VDDD" x="-5.08" y="-30.48" length="middle" direction="pwr"/>
+<pin name="VDDA" x="-5.08" y="-33.02" length="middle" direction="pwr"/>
+<pin name="IRQ" x="-5.08" y="-15.24" length="middle" direction="out"/>
+<pin name="GND" x="-5.08" y="-38.1" length="middle" direction="pwr"/>
 <wire x1="0" y1="0" x2="0" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="0" y1="-40.64" x2="38.1" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="38.1" y1="-40.64" x2="38.1" y2="0" width="0.254" layer="94"/>
